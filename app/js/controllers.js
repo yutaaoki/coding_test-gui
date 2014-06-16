@@ -2,9 +2,10 @@
 
 /* Controllers */
 
-var codingAdminApp = angular.module('codingAdminApp', []);
+var codingAdminControllers = angular.module('codingAdminControllers', []);
 
-codingAdminApp.controller('TestListCtrl', function($scope, $http, $log) {
+
+codingAdminControllers.controller('TestListCtrl', function($scope, $http, $log) {
 
 //$scope.tests = [{"name" : 'empty'}]
 

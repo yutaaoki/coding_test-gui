@@ -1,0 +1,10 @@
+<h2>Tests</h2>
+
+<table class="table">
+<tbody>
+  <tr><th>Name</th><th>Action</th></tr>
+  <tr ng-repeat="test in tests">
+      <td>{{test.name}}</td><td><a href="#/test/{{test.name}}">Edit</a> | Delete</td>
+  </tr>
+</tbody>
+</table>

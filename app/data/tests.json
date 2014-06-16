@@ -1,5 +1,5 @@
 [
-{"name": "Java Test"},
-{"name": "Python Test"},
-{"name" : "Ruby Test"}
+{"name": "java_test"},
+{"name": "python_test"},
+{"name" : "ruby_test"}
 ]
