@@ -2,10 +2,12 @@
 
 /* Controllers */
 
-angular.module('myApp.controllers', [])
-  .controller('MyCtrl1', ['$scope', function($scope) {
+var codingAdminApp = angular.module('codingAdminApp', []);
 
-  }])
-  .controller('MyCtrl2', ['$scope', function($scope) {
+codingAdminApp.controller('TestListCtrl', function($scope) {
 
-  }]);
+  $scope.tests = [
+    {'name': 'Java Test'},
+    {'name': 'Python Test'}
+  ];
+});
