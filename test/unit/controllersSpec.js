@@ -2,19 +2,15 @@
 
 /* jasmine specs for controllers go here */
 
-describe('controllers', function(){
-  beforeEach(module('myApp.controllers'));
+describe('TestListCtrl', function(){
+  beforeEach(module('codingAdminApp'));
 
 
-  it('should ....', inject(function($controller) {
+  it('create json data', inject(function($controller) {
     //spec body
-    var myCtrl1 = $controller('MyCtrl1', { $scope: {} });
-    expect(myCtrl1).toBeDefined();
+    var scope {},
+      ctrl = = $controller('TestListCtrl', { $scope: scope });
+    expect(scope.tests.length).toBe(2);
   }));
 
-  it('should ....', inject(function($controller) {
-    //spec body
-    var myCtrl2 = $controller('MyCtrl2', { $scope: {} });
-    expect(myCtrl2).toBeDefined();
-  }));
 });
