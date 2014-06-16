@@ -1,5 +1,5 @@
-  [
-    {'name': 'Java Test'},
-    {'name': 'Python Test'},
-    {'name' : 'Ruby Test'}
-  ]
+[
+{"name": "Java Test"},
+{"name": "Python Test"},
+{"name" : "Ruby Test"}
+]
