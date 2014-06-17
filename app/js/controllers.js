@@ -18,3 +18,7 @@ codingAdminControllers.controller('TestListCtrl', function($scope, $http, $log) 
   });
 
 });
+
+codingAdminControllers.controller('TestNewCtrl', function($scope) {
+    //do nothing
+});

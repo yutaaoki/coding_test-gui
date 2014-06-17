@@ -12,6 +12,10 @@ config(['$routeProvider', function($routeProvider) {
             templateUrl: 'partials/main.html',
             controller: 'TestListCtrl'
         }).
+        when('/test/new',{
+            templateUrl: 'partials/test_new.html',
+            controller: 'TestNewCtrl'
+        }).
         otherwise({
             redirectTo: '/'
         });
